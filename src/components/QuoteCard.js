@@ -1,13 +1,12 @@
 import React from 'react'
-import Copy from '../utils/Copy'
 import { TwitterIcon, TwitterShareButton } from 'react-share'
 
-const QuoteCard = ({quote}) => {
+const QuoteCard = ({ quote }) => {
 
-  return (
-    <div className="w-[90%] bg-gray-50 sm:w-[300px] rounded-xl  shadow hover:bg-gray-100 flex-col items-center justify-center p-4 text-center">
-        <div className="w-full flex items-center justify-center mb-6">
-                <img src={`https://images.quotable.dev/profile/200/${quote.authorSlug}.jpg`} alt={quote.author} className='w-[100px] rounded-full'/>
+    return (
+        <div className="w-[90%] bg-gray-50 sm:w-[300px] rounded-xl  shadow hover:bg-gray-100 flex-col items-center justify-center p-4 text-center">
+            <div className="w-full flex items-center justify-center mb-6">
+                <img src={`https://images.quotable.dev/profile/200/${quote.authorSlug}.jpg`} alt={quote.author} className='w-[100px] rounded-full' />
             </div>
 
             <div>
@@ -17,8 +16,7 @@ const QuoteCard = ({quote}) => {
                 </p>
             </div>
 
-            <div className="icons w-full p-4 flex items-center justify-between">
-                <Copy quote={quote.content} author={quote.author}/>
+            <div className="icons w-full p-4 flex items-center justify-end">
                 <TwitterShareButton
                     title={`"${quote.content}" - ${quote.author}`}
                     url={"https://twitter.com"}
@@ -27,10 +25,10 @@ const QuoteCard = ({quote}) => {
                 >
                     <TwitterIcon size={32} round={true} className="opacity-40 cursor-pointer hover:opacity-100" />
                 </TwitterShareButton>
-               
+
             </div>
-    </div>
-  )
+        </div>
+    )
 }
 
 export default QuoteCard
