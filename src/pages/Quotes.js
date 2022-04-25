@@ -34,7 +34,7 @@ const Quotes = () => {
       {quotes[0] && !loading ? (
         <div>
           <Nav photoURL={photoURL}/>
-          <div className="w-full flex flex-wrap items-center justify-center px-8 py-12 max-w-[1300px]">
+          <div className="w-full flex flex-wrap items-center justify-center md:px-8 px-2 py-12 max-w-[1300px]">
             {quotes.map(quote => <QuoteCard quote={quote} key={quote._id}/>)}
           </div>
           <Pagination totalPages={totalPages} setQuotes={setQuotes} loading={loading} setLoading={setLoading}/>
