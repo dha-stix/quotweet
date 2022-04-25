@@ -3,27 +3,19 @@
 @tailwind utilities;
 
 * {
+  font-family: 'Poppins', sans-serif;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  font-family: 'Sora', sans-serif;
 }
-table {
-  font-family: arial, sans-serif;
-  margin-top: 30px;
-  border-collapse: collapse;
-  width: 100%;
-  box-shadow: 0 2px 5px 0 rgba(50,50,105,0.15), 0 1px 1px 0 rgba(0,0,0,0.05);
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #F7F7F7;
-}
-tr:hover {
-  background-color: #F7F5F2;
+.quote {
+  box-shadow: 0 4px 12px  rgba(0,0,0,0.08);
 }

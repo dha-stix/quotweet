@@ -1,19 +1,17 @@
 ## Invoicer
 
-An online invoicing software that helps you craft and print professional invoices for your customers for free! Keep your business and clients with one invoicing software.
+a web application that allows you to view and share quotes on Twitter with just one click.
+
+### Live URL: http://quotweet.vercel.app/
 
 ![Web Preview](./src/images/githubSnapshot.png)
 
 ### Tools Used:
 
 - React.js
-- Firebase
-- React-to-print
 - Tailwind CSS
-- Material UI
-- React Hook Form
-- React Toastify
-- Redux Toolkit
+- Quotes API: [URL](https://api.quotable.io/quotes)
+- React-paginate
 
 ### To work on this project
 
