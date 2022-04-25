@@ -10,7 +10,7 @@ const Hero = () => {
             </h2>
             <p className="opacity-30 text-lg mb-8 font-semibold">Read, share and tweet life-changing, inspiring quotes with your followers. With Quotweet, educate and grow your Twitter followers.</p>
             
-            <Link to="/quotes" className="relative inline-flex items-center justify-start px-6 py-4 overflow-hidden font-medium transition-all bg-blue-500 rounded-xl group w-[200px] shadow-lg">
+            <Link to="/login" className="relative inline-flex items-center justify-start px-6 py-4 overflow-hidden font-medium transition-all bg-blue-500 rounded-xl group w-[200px] shadow-lg">
             <span className="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-blue-700 rounded group-hover:-mr-4 group-hover:-mt-4">
                 <span className="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
             </span>
