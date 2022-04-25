@@ -1,6 +1,6 @@
-## Invoicer
+## Quotweet
 
-a web application that allows you to view and share quotes on Twitter with just one click.
+A web application that allows you to view and share quotes on Twitter with just one click.
 
 ### Live URL: http://quotweet.vercel.app/
 
