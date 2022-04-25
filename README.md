@@ -2,7 +2,6 @@
 
 An online invoicing software that helps you craft and print professional invoices for your customers for free! Keep your business and clients with one invoicing software.
 
-![Web Preview](./src/images/githubSnapshot.png)
 
 ### Tools Used:
 
