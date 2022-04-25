@@ -4,6 +4,7 @@ a web application that allows you to view and share quotes on Twitter with just 
 
 ### Live URL: http://quotweet.vercel.app/
 
+![Web Preview](./src/images/githubSnapshot.png)
 
 ### Tools Used:
 
